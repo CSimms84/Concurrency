@@ -1,3 +1,4 @@
+package ThreadLifecycles;
 /*
   Code below contains snippets of code
   that reveals the NEW state via different

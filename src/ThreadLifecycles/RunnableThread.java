@@ -1,3 +1,4 @@
+package ThreadLifecycles;
 // Scenario for the RUNNABLE state:
 
 /*

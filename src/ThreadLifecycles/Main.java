@@ -1,3 +1,5 @@
+package ThreadLifecycles;
+
 public class Main {
 
     // Run all the examples
@@ -40,7 +42,7 @@ public class Main {
         // Run scenario for the BLOCKED state
         System.out.println("Run scenario for the BLOCKED state");
         BlockedThread bt = new BlockedThread();
-        bt.blockedThread();
+        bt.blockThread();
     }
 
 }

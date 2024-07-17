@@ -1,3 +1,4 @@
+package ThreadLifecycles;
 // Creating a BLOCKED state
 
 /*
@@ -12,10 +13,9 @@
           it can't acquire the lock of syncMethod().
  */
 
-
 public class BlockedThread {
 
-    public void blockedThread() {
+    public void blockThread() {
         Thread thread1 = new Thread(new SyncBlockCode());
         Thread thread2 = new Thread(new SyncBlockCode());
 
@@ -42,6 +42,7 @@ public class BlockedThread {
                 + thread2.getState() + "(" + thread2.getName() + ")");
 
         System.exit(0);
+    
     }
 
     private static class SyncBlockCode implements Runnable {
