@@ -19,19 +19,19 @@ Welcome to the comprehensive guide to Java's threading model. This repository co
 This repository is designed to provide a comprehensive understanding of Java's threading model. It includes examples and explanations of thread states, concurrency utilities, and the new virtual threads introduced in Java.
 
 ## Fundamental Computer Hardware Resources
--**CPU**
--**Memory**
--**Disk/SSD**
--**Network**
--**Software Critical Section**
+- **CPU**
+- **Memory**
+- **Disk/SSD**
+- **Network**
+- **Software Critical Section**
 
 ### Sources of Overhead in a concurrent system
--**Monitors** (i.e., locks and condition variables)
--**Number of context switches**
--**Number of threads**
--**Scheduling**
--**Locality of memory**
--**Algorithm design**
+- **Monitors** (i.e., locks and condition variables)
+- **Number of context switches**
+- **Number of threads**
+- **Scheduling**
+- **Locality of memory**
+- **Algorithm design**
 
 ## Repository Structure
 
