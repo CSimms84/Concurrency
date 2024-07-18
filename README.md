@@ -60,7 +60,7 @@ Files:
 
 ## Future Enhancements
 
-To make this repository even more comprehensive, consider adding the following folders and examples:
+Because this GitHub repo is meant to be comprehensive, the following folders and examples will eventually be added:
 
 - **Locks and Synchronization**: Examples demonstrating the use of synchronized blocks, locks, and other synchronization primitives.
 - **Executor Framework**: Examples showcasing the different types of executors provided by the `java.util.concurrent` package.
