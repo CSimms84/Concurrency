@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main2_refactor {
-    private static final Logger logger = LoggerFactory.getLogger(Main2.class);
+    private static final Logger logger = LoggerFactory.getLogger(Main2_refactor.class);
 
     public static void main(String[] args) {
         // Create a thread pool
@@ -24,8 +24,10 @@ public class Main2_refactor {
             logger.info("Platform thread finished");
         });
 
-        // Submit threads to the thread pool
-        executor.execute(vThread);
+        // Start the virtual thread manually
+        vThread.start();
+
+        // Submit the platform thread to the thread pool
         executor.execute(pThread);
 
         // Shut down the thread pool
