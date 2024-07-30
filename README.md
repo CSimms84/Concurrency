@@ -25,7 +25,7 @@ This repository is designed to provide a comprehensive understanding of Java's t
 - **Network**
 - **Software Critical Section**
 
-### Sources of Overhead in a concurrent system
+### Sources of Overhead in a Concurrent System
 - **Monitors** (i.e., locks and condition variables)
 - **Number of context switches**
 - **Number of threads**
@@ -33,7 +33,7 @@ This repository is designed to provide a comprehensive understanding of Java's t
 - **Locality of memory**
 - **Algorithm design**
 
-## Repository Structure
+# Repository Structure
 
 ### ThreadLifecycles
 
