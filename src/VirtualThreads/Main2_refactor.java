@@ -4,11 +4,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main2_refactor {
+
     private static final Logger logger = LoggerFactory.getLogger(Main2_refactor.class);
 
+    private static int NUMBER_OF_THREADS = 10;
     public static void main(String[] args) {
         // Create a thread pool
-        ExecutorService executor = Executors.newFixedThreadPool(2);
+        ExecutorService executor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
         // Create a virtual thread
         Thread vThread = Thread.ofVirtual().name("my-virtual-thread").unstarted(() -> {
